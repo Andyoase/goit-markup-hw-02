@@ -1,4 +1,49 @@
-.global-web {
-    color:#2196F3;
-     
+/* general style */
+.text-blue{
+    color: blue;
+
+}
+
+.text-black{
+    color: black;
+}
+
+
+/* header section */
+.header-container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+nav li a {
+    color: black;
+}
+
+nav li a:hover {
+    color: blue;
+}
+
+/* logo section */
+
+.logo-container {
+
+}
+.logo-container span:first-child {
+    font-style: <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30,52px;
+
+
+}
+.logo-container span:last-child {
+  font-style: <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35,96px;
+
 }
