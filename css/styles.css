@@ -35,8 +35,6 @@ nav li a:hover {
     font-weight: 700;
     font-size: 26px;
     line-height: 30,52px;
-
-
 }
 .logo-container span:last-child {
   font-style: <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,5 +43,12 @@ nav li a:hover {
   font-weight: 400;
   font-size: 26px;
   line-height: 35,96px;
+}
 
+a {
+ color: black;
+}
+
+a:hover {
+    color: blue;
 }
