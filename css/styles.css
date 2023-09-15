@@ -121,5 +121,7 @@ a:hover {
 
 .navigation {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
 }
