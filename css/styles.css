@@ -166,7 +166,11 @@ a:hover {
     margin-top: -10px;
 }
 
-
+.img li {
+    margin-left: 10px;
+    margin-top: 10px;
+    flex-basis: calc((100% - 30px) /3 );
+}
 
 .buttons-section {
     display: flex;
