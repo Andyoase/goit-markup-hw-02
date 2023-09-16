@@ -119,9 +119,26 @@ a:hover {
     letter-spacing: 2%;
 }
 
-.navigation {
+.header-container {
+    weight: 1600px;
+    height: 80px;
+    border-bottom: 1px solid #ececec;
+}
+       
+.header-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     text-decoration: none;
+    align-items: center;
+}
+
+/* main section */
+
+.display-block {
+    display: inline;
+    width: 1170px;
+    height: 1360px;
+    top: 174px;
+    left: 215px;
 }
