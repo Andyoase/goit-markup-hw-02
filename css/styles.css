@@ -142,26 +142,22 @@ a:hover {
 
 /* main section */
 .buttons-section {
-    width: 516px;
-    height: 38px;
-    top: 174px;
-    left: 542px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-}
-
-.buttons-section {
+    justify-content: center;
     background: var(--link-background-color);
     cursor: pointer;
     border: none;
+    list-style: none;
 }
 
-.buttons-section:focus {
+.buttons-section li a:hover {
     background-color: var(--link-hover-color);
+    color: var(--link-background-color);
+    margin-inline: 3px;
 }
 
-.buttons-section span {
+.buttons-section a {
     color: var(--link-title-color);
     text-align: center;
     font-size: 16px;
@@ -169,6 +165,8 @@ a:hover {
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 0.48px;
+    padding: 5px 10px;
+    
 }
 
 
