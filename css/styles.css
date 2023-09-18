@@ -337,10 +337,11 @@ footer {
 .footer-container a {
    opacity: 60%;
 }
-    
-.footer-container span,
+.footer-container span,   
 .footer-container address,
 .footer-container p  {
+  line-height: 1.2;  
   margin-top: 5px;
   margin-bottom: 10px;
 }
+
