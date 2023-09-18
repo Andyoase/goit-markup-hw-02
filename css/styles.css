@@ -1,3 +1,131 @@
+/* Studio */
+
+/* general */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto
+}
+
+:root {
+    --link-color: #212121;
+    --link-text: "Roboto", sans-serif;
+    --link-logo-text: "Raleway", sans-serif;
+    --link-background-color: #ffffff;
+}
+
+/* header section */
+.header-container {
+    max-width: 1200px;
+    width: 100%;
+    border-bottom: 1px solid #ececec;
+    height: 80px;
+}
+
+.header-container {
+    border-bottom: 1px solid #ececec;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+}
+
+.text-blue,
+.text-black,
+.text-white {
+   font-family: var(--link-text);
+}
+
+.top-logo {
+    text-decoration: none;
+    font-family: var(--heading-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30.52px;
+    margin-right: 50px;
+}
+
+.text-blue {
+    color: blue;
+
+}
+
+.text-black {
+    color: black;
+}
+
+nav li a {
+    color: black;
+
+}
+
+nav li a:hover {
+    color: blue;
+}
+
+.main-navigation ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.main-navigation {
+    color: var(--link-hover-color);
+    font-family: var(--link-text);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    text-decoration: none;
+}
+
+.main-navigation ul li+li {
+    margin-left: 30px;
+}
+
+.top-contact {
+    color: var(--link-hover-color);
+    font-family: var(--link-text);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: 2%;
+}
+
+.
+
+.header-container>nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-container {
+    border-bottom: 1px solid #ececec;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+}
+
+.mail {
+    color: #2196F3;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
