@@ -183,7 +183,8 @@ nav li a:hover {
 }
 
 .text-container li {
-    padding-right: 50px;
+    padding-right: 174px;
+    margin-right: -134px;
 }
 
 .text-container li:last-child {
@@ -253,15 +254,12 @@ h5 {
     /* to be defined */
 }
 
-.img-container {
-    list-style: none;
+.img-container  {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0;
     justify-content: space-between;
-    width: 370px;
-    height: 294px;
+    align-items: flex-start;
+    padding: 0;
 }
 
 
