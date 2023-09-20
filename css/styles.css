@@ -18,13 +18,8 @@ body {
 
 /* tag zone */
 
-h1, h2, h3, h4, h5 {
-    
-}
 
-h1 {
 
-}
 
 h2 {
 
@@ -34,9 +29,6 @@ h3 {
 
 }
 
-h4 {
-
-}
 
 h5 {
 
@@ -191,7 +183,7 @@ nav li a:hover {
 }
 
 .text-container li {
-    padding-right: 40px;
+    padding-right: 50px;
 }
 
 .text-container li:last-child {
