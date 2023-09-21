@@ -255,11 +255,12 @@ h5 {
 }
 
 .img-container  {
+    list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-wrap: wrap;
     padding: 0;
+    justify-content: space-between;
 }
 
 
