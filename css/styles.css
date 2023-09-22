@@ -381,8 +381,9 @@ footer {
     font-weight: 700;
     font-size: 26px;
     line-height: 30.52px;
-    margin-right: 50px;
+    margin-right: 93px;
 }
+
 
 .nav-container  {
     color: var(--link-hover-color);
@@ -403,8 +404,8 @@ footer {
     padding-inline-start: 0px;
 }
 
-.nav-container ul li + li{
-    margin-left: 30px;
+.nav-container ul li + li {
+    margin-left: 50px ;
 }
 
 a {
@@ -420,6 +421,15 @@ a {
     font-size: 14px;
     line-height: 16.41px;
     letter-spacing: 2%;
+}
+
+.nav-contact a {
+    padding-right: 20px;
+    color: #757575;
+}
+
+.nav-contact a:hover {
+    color: #2196F3;
 }
 
 .header-container {
@@ -455,27 +465,15 @@ a {
     flex-direction: row;
     justify-content: center;
     background: var(--link-background-color);
-    cursor: pointer;
     border: none;
     list-style: none;
+    margin-bottom: 30px;
 }
 
 .filters button {
     margin-inline: 3px;
     background-color: #F5F4FA;
-    margin-bottom: 30px;
     border-style: none;
-}
-
-.filters button:hover {
-    background-color: var(--link-hover-color);
-}
-
-.filters button a:hover {
-    color: var(--link-background-color);
-}
-
-.filters button {
     color: var(--link-title-color);
     text-align: center;
     font-size: 16px;
@@ -483,8 +481,18 @@ a {
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 0.48px;
-    padding: 5px 10px;  
+    padding: 5px 25px; 
+    cursor: pointer;
 }
+
+.filters button:hover {
+    background-color: var(--link-hover-color);
+}
+
+.filters button:hover {
+    color: var(--link-background-color);
+}
+
 
 .products-list {
     list-style: none;
