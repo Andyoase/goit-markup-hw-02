@@ -446,21 +446,22 @@ a {
     list-style: none;
 }
 
-.filters li {
+.filters button {
     margin-inline: 3px;
     background-color: #F5F4FA;
     margin-bottom: 30px;
+    border-style: none;
 }
 
-.filters li:hover {
+.filters button:hover {
     background-color: var(--link-hover-color);
 }
 
-.filters li a:hover {
+.filters button a:hover {
     color: var(--link-background-color);
 }
 
-.filters a {
+.filters button {
     color: var(--link-title-color);
     text-align: center;
     font-size: 16px;
@@ -496,6 +497,7 @@ a {
    font-weight: 700;
    line-height: 36px;
    letter-spacing: 1.08px;
+   text-align: start;
 }
 
 .products-list li p {
