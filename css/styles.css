@@ -106,7 +106,7 @@ a {
     font-weight: 700;
     font-size: 26px;
     line-height: 30.52px;
-    margin-left: 20px;
+    margin-right: 93px;
 }
 
 .text-blue {
@@ -142,7 +142,6 @@ nav li a:hover {
     font-weight: 500;
     line-height: 16.41px;
     text-decoration: none;
-    margin-right: 275px;
 }
 
 .main-navigation ul li+li {
