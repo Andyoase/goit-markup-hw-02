@@ -85,13 +85,13 @@ a {
 }
 
 .header-container {
-    border-bottom: 1px solid #ececec;
-    height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-decoration: none;
     align-items: center;
+    border-bottom: 1px solid #ececec;
+    height: 80px;
 }
 
 .text-blue,
@@ -100,7 +100,7 @@ a {
    font-family: var(--link-text);
 }
 
-.header-logo {
+.top-logo {
     text-decoration: none;
     font-family: var(--heading-font-family);
     font-weight: 700;
@@ -127,7 +127,16 @@ nav li a:hover {
     color: #2196F3;
 }
 
-.main-navigation ul {
+.nav-container {
+    color: var(--link-hover-color);
+    font-family: var(--link-text);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    text-decoration: none;
+}
+
+.nav-container ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -135,20 +144,18 @@ nav li a:hover {
     list-style: none;
     padding-inline-start: 0px;
 }
-.main-navigation {
-    color: var(--link-hover-color);
-    font-family: var(--link-text);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 16.41px;
-    text-decoration: none;
-}
 
-.main-navigation ul li+li {
+.nav-container ul li+li {
     margin-left: 50px;
 }
 
-.top-contact {
+.nav-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-contact {
     color: var(--link-hover-color);
     font-family: var(--link-text);
     text-decoration: none;
@@ -157,14 +164,19 @@ nav li a:hover {
     line-height: 16.41px;
 }
 
-.top-contact a {
-    color: #757575;
+.nav-contact a {
     padding-right: 20px;
-
+    color: #757575;
 }
 
-.top-contact a:hover {
+.nav-contact a:hover {
    color: #2196F3;
+}
+
+.header-container  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .banner-section {
@@ -420,7 +432,6 @@ a {
     font-weight: 500;
     font-size: 14px;
     line-height: 16.41px;
-    letter-spacing: 2%;
 }
 
 .nav-contact a {
@@ -442,7 +453,7 @@ a {
     align-items: center;
 }
        
-.header-container > div {
+.header-container  div {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -483,6 +494,10 @@ a {
     letter-spacing: 0.48px;
     padding: 5px 25px; 
     cursor: pointer;
+}
+
+.filters button :focus {
+    color: var(--link-hover-color) ;
 }
 
 .filters button:hover {
