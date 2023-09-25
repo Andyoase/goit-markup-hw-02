@@ -208,7 +208,7 @@ nav li a:hover {
   width: 600px;
 }
 
-.banner-section a:hover {
+.banner-container:hover {
     color: #ffffff;
 }
 
